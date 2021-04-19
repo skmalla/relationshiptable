@@ -1,0 +1,117 @@
+.search-wrapper {
+  background: #eef1f5;
+  border: 1px solid #e5e5e5 !important;
+  box-sizing: border-box;
+  box-shadow: inset 2px 3px 10px rgba(255, 255, 255, 0.75),
+    inset 2px 2px 4px rgba(166, 180, 200, 0.75);
+  border-radius: 5px;
+  border-left: 3px solid #efa239 !important;
+  padding: 2px !important;
+  width: 600px;
+}
+
+.icon_cancel {
+  color: #2e3a59 !important;
+  font-size: 16px !important;
+}
+
+input.searchBox {
+  width: 1% !important;
+  box-shadow: none !important;
+  border-left: 0 !important;
+}
+
+.chip {
+  background: linear-gradient(
+    134.17deg,
+    #eef0f5 4.98%,
+    #e6e9ef 94.88%
+  ) !important;
+  box-shadow: -2px -2px 4px rgba(255, 255, 255, 0.8),
+    2px 2px 5px rgba(166, 180, 200, 0.7) !important;
+  border-radius: 5px !important;
+  color: #00072b !important;
+  font-size: 14px !important;
+  padding: 8px 10px !important;
+}
+
+.optionListContainer ul li {
+  background: #ffffff !important;
+  color: #00072b !important;
+  font-size: 14px !important;
+}
+
+.optionListContainer ul li:hover {
+  background: #efa239 !important;
+  color: #ffffff !important;
+}
+
+.optionListContainer {
+  background: #eef0f6 !important;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.07), -4px -4px 13px #ffffff,
+    6px 6px 36px rgba(0, 0, 0, 0.06) !important;
+  border: 0 !important;
+  z-index: 1000 !important;
+}
+
+.MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded {
+  background: #eef0f6;
+  border-radius: 12px;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.07), -4px -4px 13px #ffffff,
+    6px 6px 36px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  overflow-x: auto !important;
+  white-space: nowrap !important;
+}
+
+#react-table th {
+  position: sticky;
+  top: 0px;
+}
+
+.well {
+  background: #eeefff;
+  padding: 15px;
+}
+
+.tab {
+  background: transparent;
+  padding: 5px 15px;
+  color: #1122ff;
+  border: none;
+  cursor: pointer;
+}
+
+.tab-content {
+  padding: 15px 5px;
+}
+
+.tab.active {
+  background: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+}
+
+.nav-tabs {
+  margin-top: 10px;
+}
+
+.add-tab-button {
+  background: none;
+  border: none;
+}
+
+.edit-mode-button {
+  background: #1122ff;
+  color: #fff;
+}
+
+.save-button {
+  background: green;
+  color: #fff;
+}
+
+.edit-tab-name {
+  background: #1122ff;
+  color: #fff;
+}
